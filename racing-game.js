@@ -52,8 +52,7 @@ function drawRect2() {
 
 }
 
-var reset = drawRect1; drawRect2;
-
+// var reset = drawRect1; drawRect2;
 
 function start() {
 	ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -77,21 +76,7 @@ function start() {
 		alert = function() {};
 		clearInterval();
 	}
-	reset;
-
-	
+	requestAnimationFrame(start);
 }
-setInterval(start, 30);
 
-
-
-
-
-
-
-
-
-
-
-
-
+start()

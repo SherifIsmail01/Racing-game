@@ -1,11 +1,11 @@
 #myCanvas {
-	background-color: darkgrey ;
+	background-color: lightyellow;
+	margin-top: 20px;
 }
 
 body {
 	background-color: #18A38E;
 }
-
 
 #reset {
 	font-size: 12px;
